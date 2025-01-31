@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Junior Shopping Site
 
-## Getting Started
+> **_An e-commerce platform for medium size business_**
 
-First, run the development server:
+## Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+_The Junior Shopping Site is an online eCommerce platform designed specifically for small-scale retailers in local communities. With people's busy lifestyles, many prefer the ease of ordering essentials online rather than visiting physical stores, especially after a long day of work. Our platform addresses this need by offering a simple, localized solution for shopping, making it easier for people to support local businesses. For products from national or international brands, users can still shop all those items which are available on popular E-commerce platform like Amazon, Flipkart, or Alibaba, integrating both local convenience and global options into one place._
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. npx create-next-app@latest
+2. What is your project named? » _your_project_name_
+3. Would you like to use TypeScript? » No / Yes -> No
+4. Would you like to use ESLint? ... No / Yes -> Yes
+5. Would you like to use Tailwind CSS? » No / Yes -> Yes
+6. Would you like your code inside a `src/` directory? » No / Yes -> Yes
+7. Would you like to use App Router? (recommended) » No / Yes -> Yes
+8. Would you like to use Turbopack for next dev? » No / Yes -> No
+9. Would you like to customize the import alias (@/\* by default)? » No / Yes -> Yes
 
-## Learn More
+### Clone the repository
 
-To learn more about Next.js, take a look at the following resources:
+👉 [click the link to open the files](https://github.com/pankajkoree/react/tree/main/NextJS/45ecommerce)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [NextJS](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [MongoDB](https://www.mongodb.com/)
+- [React Query](https://tanstack.com/)
+- [Node mailer](https://nodemailer.com/)
+- [ShadCN UI](https://ui.shadcn.com/)
+- [React-hot-toast](https://react-hot-toast.com/)
+- [bcryptjs](https://www.npmjs.com/package/bcryptjs)
+- [JWT](https://www.npmjs.com/package/jsonwebtoken)
 
-## Deploy on Vercel
+### Flow structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### User perspective
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![alt text](image.png)
+
+👉 [Signup](https://github.com/pankajkoree/react/tree/main/NextJS/45ecommerce/src/app/signup)
+
+👉 [Login](https://github.com/pankajkoree/react/tree/main/NextJS/45ecommerce/src/app/login)
+
+👉 [Profile](https://github.com/pankajkoree/react/tree/main/NextJS/45ecommerce/src/app/profile/%5B...profile%5D)
+
+👉 [Add to cart](https://github.com/pankajkoree/react/tree/main/NextJS/45ecommerce/src/app/carts)
+
+👉 [Buy now](https://github.com/pankajkoree/react/tree/main/NextJS/45ecommerce/src/app/buyNow)
+
+### Admin perspective
+
+![alt text](image-1.png)
+
+👉 [Admin code](https://github.com/pankajkoree/react/blob/main/NextJS/45ecommerce/src/app/admin/page.jsx)
