@@ -1,7 +1,6 @@
 "use client";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 
 const VerifyEmail = () => {
   const [token, setToken] = useState("");
